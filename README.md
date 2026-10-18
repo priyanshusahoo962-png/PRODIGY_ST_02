@@ -34,7 +34,7 @@ Testing a simple e-commerce web page across different browsers and devices, chec
 - Navigation menu links
 - Top banner
 - Footer links (Helpful Links and Online Store)
-- Page layout on desktop, tablet, and mobile sizes
+- Page layout on desktop and mobile sizes
 - Behavior across browsers
 
 ## Compatibility Matrix
@@ -106,7 +106,7 @@ Testing a simple e-commerce web page across different browsers and devices, chec
 - **Expected:** Text looks the same in all browsers
 - **Actual:** In Firefox, the SHOPLANE logo appears thinner than in Chrome, and the heading "Clothing For Men And Women" has wider letter spacing, so it is slightly longer
 - **Screenshots:** `screenshots/issue5_chrome.png`, `screenshots/issue5_firefox.png`
-- **Recommended fix:** Define a complete font stack with fallback fonts (for example `font-family: "Lato", Arial, sans-serif;`), set `font-weight`, `letter-spacing` and `font-size` explicitly, and make sure the web fonts are loaded the same way for all browsers..
+- **Recommended fix:** Define a complete font stack with fallback fonts (for example `font-family: "Lato", Arial, sans-serif;`), set `font-weight`, `letter-spacing` and `font-size` explicitly, and make sure the web fonts are loaded the same way for all browsers.
 
 ## Recommended Fixes (General)
 
@@ -119,7 +119,7 @@ Testing a simple e-commerce web page across different browsers and devices, chec
 
 ## Conclusion
 
-The website was tested on multiple browsers and screen sizes. The main problem found was multiple broken navigation and footer links that lead to "Page not found" or do not open at all. Fixing the link paths would resolve most of the issues.
+The website was tested on Chrome, Edge, and Firefox, and on desktop and mobile screen sizes. The main problem found was multiple broken navigation and footer links that lead to "Page not found" or do not open at all. A minor font rendering difference was also observed in Firefox. Fixing the link paths would resolve most of the issues.
 
 ## What I Learned
 
