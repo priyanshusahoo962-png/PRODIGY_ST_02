@@ -25,7 +25,7 @@ Testing a simple e-commerce web page across different browsers and devices, chec
 | Operating System | Windows |
 | Browsers | Google Chrome (version: 155.0.8059.82(64-bit)), Microsoft Edge (version: 155.0.4283.62( 64-bit)), Mozilla Firefox (version: 158.0 (64-bit)) |
 | Screen sizes | Desktop (1920×1080), Mobile (Vivo Y20G) via Chrome DevTools device emulation |
-| Testing Date | 16 October 2026 |
+| Testing Date | 18 October 2026 |
 
 > Safari was not tested because it is not available on Windows.
 
