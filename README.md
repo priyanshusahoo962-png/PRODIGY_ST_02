@@ -64,7 +64,7 @@ Testing a simple e-commerce web page across different browsers and devices, chec
 - **Steps:** 1. Open the website 2. Click "Clothing" or "Accessories" in the menu
 - **Expected:** The matching product listing page opens
 - **Actual:** "Page not found" message is shown
-- **Screenshot:** `screenshots/issue1.png`
+- **Screenshot:** `issue1_chrome.png`,`issue1_firefox.png`,`issue1_edge.png`
 - **Recommended fix:** Correct the link URLs so they point to existing pages, or create the missing pages.
 
 ### Issue 2: Top banner does not open anything when clicked
@@ -74,7 +74,7 @@ Testing a simple e-commerce web page across different browsers and devices, chec
 - **Steps:** 1. Open the website 2. Click the top banner
 - **Expected:** Banner opens its linked page (offer or collection)
 - **Actual:** Nothing opens
-- **Screenshot:** `screenshots/issue2.png`
+- **Screenshot:** `issue2.png`
 - **Recommended fix:** Add a working link to the banner, or remove the clickable styling if it is not meant to be a link.
 
 ### Issue 3: Footer "Helpful Links" (Home, About, Contact) do not open
@@ -84,7 +84,7 @@ Testing a simple e-commerce web page across different browsers and devices, chec
 - **Steps:** 1. Scroll to the footer 2. Click Home, About, or Contact
 - **Expected:** The matching page opens
 - **Actual:** The pages do not open
-- **Screenshot:** `screenshots/issue3.png`
+- **Screenshot:** `issue3.png`
 - **Recommended fix:** Fix the link paths and make sure the About and Contact pages exist.
 
 ### Issue 4: Footer "Online Store" links do not open
@@ -94,7 +94,7 @@ Testing a simple e-commerce web page across different browsers and devices, chec
 - **Steps:** 1. Scroll to the footer 2. Click each of the four links
 - **Expected:** The matching category page opens
 - **Actual:** None of the four links open
-- **Screenshot:** `screenshots/issue4.png`
+- **Screenshot:** `issue4.png`
 - **Recommended fix:** Correct the link URLs to existing category pages
 -
 - ### Issue 5: Font rendering differs slightly in Firefox
@@ -105,7 +105,7 @@ Testing a simple e-commerce web page across different browsers and devices, chec
 - **Steps:** 1. Open https://shoplane-by-lassie.netlify.app/ in Chrome 2. Open the same page in Firefox 3. Compare the logo and the heading text
 - **Expected:** Text looks the same in all browsers
 - **Actual:** In Firefox, the SHOPLANE logo appears thinner than in Chrome, and the heading "Clothing For Men And Women" has wider letter spacing, so it is slightly longer
-- **Screenshots:** `screenshots/issue5_chrome.png`, `screenshots/issue5_firefox.png`
+- **Screenshots:** `issue5_chrome.png`, `issue5_firefox.png`
 - **Recommended fix:** Define a complete font stack with fallback fonts (for example `font-family: "Lato", Arial, sans-serif;`), set `font-weight`, `letter-spacing` and `font-size` explicitly, and make sure the web fonts are loaded the same way for all browsers.
 
 ## Recommended Fixes (General)
